@@ -1,0 +1,28 @@
+﻿<Window x:Class="TCPServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCPServer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="500" FontSize="15" Background="#222222" Foreground="White">
+    <Grid Background="#FF661F1F">
+        <Label x:Name="lblAddress" Margin="29,73,407,469" RenderTransformOrigin="0.639,0.56" Foreground="White" Content="ADRES:"/>
+        <Label Margin="29,101,413,440" Foreground="White" Content="PORT:"/>
+        <TextBox BorderThickness="0" Background="White" x:Name="tbPort" Margin="93,108,239,459" Foreground="#FF661F1F" Text="1"></TextBox>
+        <TextBox BorderThickness="0" Background="White" x:Name="tbAddress" Margin="93,77,239,490" Foreground="#FF661F1F" Text="127.0.0.1"></TextBox>
+        <ListBox BorderThickness="0" Background="White" x:Name="lbMessages" Margin="310,149,37,168" Foreground="#FF661F1F"></ListBox>
+        <Button BorderThickness="0" Background="White" x:Name="btnStart" Margin="310,77,130,459" Foreground="#FF661F1F" Click="btnStart_Click_1" Content="START"/>
+        <Button BorderThickness="0" Background="White" x:Name="btnStop" Margin="403,77,37,459" Foreground="#FF661F1F" Click="btnStop_Click" Content="STOP"/>
+        <TextBox BorderThickness="0" Background="White" x:Name="tbMessages" Margin="31,436,35,53" Foreground="#FF661F1F"></TextBox>
+        <Button BorderThickness="0" Background="White" x:Name="btnSend" Margin="299,550,47,13" Foreground="#FF661F1F" Click="btnSend_Click" Content="WYŚLIJ"/>
+        <Label x:Name="LblName" Content="SERWER" HorizontalAlignment="Center" Height="96" Margin="0,-10,0,0" VerticalAlignment="Top" Width="192" Foreground="White" FontSize="48"/>
+        <WebBrowser x:Name="wbChat" Margin="29,149,37,168" OpacityMask="Black"/>
+        <Button x:Name="btRed" Content="" HorizontalAlignment="Left" Margin="28,548,0,0" VerticalAlignment="Top" Background="Red" Foreground="White" Width="26" Height="26" Click="btRed_Click"/>
+        <Button x:Name="btGreen" Content="" HorizontalAlignment="Left" Margin="61,548,0,0" VerticalAlignment="Top" Background="#FF3AED00" Foreground="White" Width="26" Height="26" Click="btGreen_Click"/>
+        <Button x:Name="btBlue" Content="" HorizontalAlignment="Left" Margin="94,548,0,0" VerticalAlignment="Top" Background="#FF0095FF" Foreground="White" Width="26" Height="26" Click="btBlue_Click"/>
+        <Button x:Name="btItalic" Content="i" HorizontalAlignment="Left" Margin="125,548,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF1F5066" Width="26" Height="26" Click="btItalic_Click"/>
+        <Button x:Name="btHelp" Content="Pomoc" HorizontalAlignment="Left" Margin="207,548,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF1F5066" Width="78" Click="btHelp_Click"/>
+        <Button x:Name="btBold" Content="b" HorizontalAlignment="Left" Margin="156,548,0,0" VerticalAlignment="Top" Width="26" Height="26" Foreground="#FF1F5066" Background="White" Click="btBold_Click_1"/>
+    </Grid>
+</Window>

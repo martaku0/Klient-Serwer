@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MzrxNZt3Wq5mrMVRfH6XQrbW2XHH1WkXVB+E1Z+EaAOyQ9YKRE45wP5hHJcJtyBsryJmGuuOxjJJPZN5zkSqiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marta\\source\\repos\\TCPServer_WebBrowser\\TCPServer\\TCPServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marta\\.nuget\\packages\\htmlagilitypack\\1.11.42\\htmlagilitypack.1.11.42.nupkg.sha512"
+  ],
+  "logs": []
+}
